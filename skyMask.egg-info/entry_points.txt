@@ -1,0 +1,2 @@
+[console_scripts]
+skymask = skyMaskCLI.cli_main:main
