@@ -76,8 +76,8 @@ skyMask process-masks --data-dir <path/to/images>
 skyMask process-masks
   --data-dir, -d        Path to images directory (required)
   --prompt, -p          Detection prompt (default: "sky")
-  --box-threshold, -bt  Bounding box score threshold (e.g., 0.5)
-  --text-threshold, -tt Text matching threshold (e.g., 0.25)
+  --box-threshold, -bt  Bounding box score threshold (default: 0.5)
+  --text-threshold, -tt Text matching threshold (default: 0.25)
   --inspect, -i         Show a preview every 10 images (True/False)
 ```
 - Box/text thresholds control Grounded-DINO proposal quality & label matching. Tune per scene.
