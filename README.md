@@ -1,4 +1,9 @@
-# SkyMask: Prompted sky masking + top padding for cleaner 3DGS
+<div align="center">
+
+# SkyMask  
+**Prompted sky masking + top padding for cleaner 3DGS**
+
+</div>
 
 A command-line tool to generate high-quality masks from multi-view images using **Grounded DINO** + **SAM 2**, automatically remove the sky (or any prompted class), and add transparent **top padding** to reduce noisy Gaussians during 3D Gaussian Splatting (3DGS) reconstruction.
 
