@@ -42,8 +42,8 @@ class MaskProcessor:
         alpha = (bool_mask.astype(np.uint8)) * 255
         rgba = np.dstack([image_rgb, alpha])
 
-        stem = os.path.splitext(os.path.basename(img_path))[0]
-        mask_path = f'{save_dir}/{stem}'
+        filename = os.path.basename(img_path)
+        mask_path = f'{save_dir}/{filename}'
 
         # Show mask
         #self.inspect = True
