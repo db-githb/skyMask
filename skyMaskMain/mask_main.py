@@ -43,8 +43,7 @@ class MaskProcessor:
         rgba = np.dstack([image_rgb, alpha])
 
         stem = os.path.splitext(os.path.basename(img_path))[0]
-        number = stem.split('_')[-1]
-        mask_path = f'{save_dir}/mask_{number}.png'
+        mask_path = f'{save_dir}/{stem}'
 
         # Show mask
         #self.inspect = True
